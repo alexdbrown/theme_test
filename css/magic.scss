@@ -1,0 +1,96 @@
+@import "bourbon/bourbon";
+@import "neat/neat";
+
+// font import
+// @include font-face(Quartzo, fonts/quartzo);
+
+@font-face {
+  font-family: "Quartzo";
+  src: url("fonts/Quartzo.ttf") format("truetype"),
+}
+
+@font-face {
+  font-family: "Hype";
+  src: url("fonts/Hype.ttf") format("truetype"),
+}
+
+@font-face {
+  font-family: "Porter";
+  src: url("fonts/Porter.ttf") format("truetype"),
+}
+
+
+html {
+  background: url(../images/stage.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: gray;
+}
+
+body {
+  color: white;
+
+}
+
+img.header__logo-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+
+}
+
+
+.field-content {
+  font-family: Hype;
+  font-size: 30px;
+}
+
+
+#site-name {
+  font-family: Hype;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px white;
+}
+
+#id {
+  float: left;
+  left-margin: 0px;
+}
+
+
+/*
+** content-wrapper
+*/
+.view-id-home {
+  @include outer-container;
+}
+
+/*
+** magic types grid
+*/
+.views-field-title {
+  font-size: 20px;
+}
+
+.views-row {
+  @include span-columns(3);
+  @include omega(4n);
+
+  text-align: center;
+  text-transform: uppercase;
+
+  img {
+    max-height: 200px;
+    max-width: 200px;
+  }
+}

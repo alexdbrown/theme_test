@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+@font-face {
+  font-family: "Quartzo";
+  src: url("fonts/Quartzo.ttf") format("truetype"); }
+@font-face {
+  font-family: "Hype";
+  src: url("fonts/Hype.ttf") format("truetype"); }
+@font-face {
+  font-family: "Porter";
+  src: url("fonts/Porter.ttf") format("truetype"); }
+html {
+  background: url(../images/stage.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: gray; }
+
+body {
+  color: white; }
+
+img.header__logo-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px; }
+
+.field-content {
+  font-family: Hype;
+  font-size: 30px; }
+
+#site-name {
+  font-family: Hype;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px white; }
+
+#id {
+  float: left;
+  left-margin: 0px; }
+
+/*
+** content-wrapper
+*/
+.view-id-home {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .view-id-home::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+/*
+** magic types grid
+*/
+.views-field-title {
+  font-size: 20px; }
+
+.views-row {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  text-align: center;
+  text-transform: uppercase; }
+  .views-row:last-child {
+    margin-right: 0; }
+  .views-row:nth-child(4n) {
+    margin-right: 0; }
+  .views-row:nth-child(4n+1) {
+    clear: left; }
+  .views-row img {
+    max-height: 200px;
+    max-width: 200px; }
+
+/*# sourceMappingURL=magic.css.map */

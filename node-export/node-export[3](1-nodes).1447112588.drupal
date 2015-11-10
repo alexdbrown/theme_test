@@ -1,0 +1,120 @@
+array(
+  (object) array(
+      'vid' => '3',
+      'uid' => '1',
+      'title' => 'Hat Trick',
+      'log' => '',
+      'status' => '1',
+      'comment' => '1',
+      'promote' => '0',
+      'sticky' => '0',
+      'vuuid' => '9a7dfdfa-3adf-422a-b30e-7264e097f2d9',
+      'nid' => '3',
+      'type' => 'magic_options',
+      'language' => 'und',
+      'created' => '1447098276',
+      'changed' => '1447098276',
+      'tnid' => '0',
+      'translate' => '0',
+      'uuid' => '3aa7dc61-dfa4-431d-87af-e5547a9cdabe',
+      'revision_timestamp' => '1447098276',
+      'revision_uid' => '1',
+      'body' => array(
+        'und' => array(
+          array(
+            'value' => "In both field hockey and ice hockey, a hat trick occurs when a player scores three goals in a single game. A hat trick, as it is known in its current form, culminates with fans throwing hats onto the ice from the stands. The tradition is said to have begun among fans in the National Hockey League around the 1950s.\r\n\r\nThere are several conflicting legends of how the \"hat trick\" was popularized in professional hockey. Most stories involve hats being awarded to any of the local players who scored three goals in a game. According to the NHL, in the 1940s, a Toronto haberdasher used to give free hats to players with the Toronto Maple Leafs when they scored three goals in a game, which introduced the \"Hat Trick\" expression into the world of hockey.\r\n\r\nMontreal hatter Henri Henri makes a similar claim, that between 1950 and 1970 they would reward any NHL player who scored three or more goals in a game at the Montreal Forum with a free hat.\r\n\r\nFinally, in the 1950s, the Guelph Biltmore Mad Hatters of the Ontario Hockey Association, who were then a farm team of the NHL's New York Rangers, were sponsored by Guelph-based Biltmore Hats, a leading manufacturer of hats with North American dominance. The sponsor would award any Madhatters player who scored three goals in a game with a new fedora.\r\n\r\nIn a slightly different account, the expression originates not with any member of a team, but with a particular player. According to legend, Chicago Blackhawks forward Alex Kaleta entered the shop of Toronto businessman Sammy Taft to purchase a new hat, but did not have enough money. Taft arranged a deal with Kaleta stipulating that if Kaleta scored three goals as he played the Toronto Maple Leafs that night, Taft would give him a free hat. That night, on 26 January 1946, Kaleta scored four goals against the Maple Leafs and Taft made good on his offer. This is the story accepted as the origin of the phrase by the Hockey Hall of Fame.\r\n\r\nWayne Gretzky holds the NHL record for the most hat tricks in a career with 50.",
+            'summary' => '',
+            'format' => 'filtered_html',
+            'safe_value' => "<p>In both field hockey and ice hockey, a hat trick occurs when a player scores three goals in a single game. A hat trick, as it is known in its current form, culminates with fans throwing hats onto the ice from the stands. The tradition is said to have begun among fans in the National Hockey League around the 1950s.</p>\n<p>There are several conflicting legends of how the \"hat trick\" was popularized in professional hockey. Most stories involve hats being awarded to any of the local players who scored three goals in a game. According to the NHL, in the 1940s, a Toronto haberdasher used to give free hats to players with the Toronto Maple Leafs when they scored three goals in a game, which introduced the \"Hat Trick\" expression into the world of hockey.</p>\n<p>Montreal hatter Henri Henri makes a similar claim, that between 1950 and 1970 they would reward any NHL player who scored three or more goals in a game at the Montreal Forum with a free hat.</p>\n<p>Finally, in the 1950s, the Guelph Biltmore Mad Hatters of the Ontario Hockey Association, who were then a farm team of the NHL's New York Rangers, were sponsored by Guelph-based Biltmore Hats, a leading manufacturer of hats with North American dominance. The sponsor would award any Madhatters player who scored three goals in a game with a new fedora.</p>\n<p>In a slightly different account, the expression originates not with any member of a team, but with a particular player. According to legend, Chicago Blackhawks forward Alex Kaleta entered the shop of Toronto businessman Sammy Taft to purchase a new hat, but did not have enough money. Taft arranged a deal with Kaleta stipulating that if Kaleta scored three goals as he played the Toronto Maple Leafs that night, Taft would give him a free hat. That night, on 26 January 1946, Kaleta scored four goals against the Maple Leafs and Taft made good on his offer. This is the story accepted as the origin of the phrase by the Hockey Hall of Fame.</p>\n<p>Wayne Gretzky holds the NHL record for the most hat tricks in a career with 50.</p>\n",
+            'safe_summary' => '',
+          ),
+        ),
+      ),
+      'field_magic_thumb' => array(
+        'und' => array(
+          array(
+            'fid' => '3',
+            'uid' => '1',
+            'filename' => 'rab.jpg',
+            'uri' => 'public://rab.jpg',
+            'filemime' => 'image/jpeg',
+            'filesize' => '153160',
+            'status' => '1',
+            'timestamp' => '1447098276',
+            'uuid' => 'b76d63b3-81af-4770-a0ad-e1c51f9d5054',
+            'rdf_mapping' => array(),
+            'alt' => '',
+            'title' => '',
+            'width' => '802',
+            'height' => '1000',
+          ),
+        ),
+      ),
+      'rdf_mapping' => array(
+        'rdftype' => array(
+          'sioc:Item',
+          'foaf:Document',
+        ),
+        'title' => array(
+          'predicates' => array(
+            'dc:title',
+          ),
+        ),
+        'created' => array(
+          'predicates' => array(
+            'dc:date',
+            'dc:created',
+          ),
+          'datatype' => 'xsd:dateTime',
+          'callback' => 'date_iso8601',
+        ),
+        'changed' => array(
+          'predicates' => array(
+            'dc:modified',
+          ),
+          'datatype' => 'xsd:dateTime',
+          'callback' => 'date_iso8601',
+        ),
+        'body' => array(
+          'predicates' => array(
+            'content:encoded',
+          ),
+        ),
+        'uid' => array(
+          'predicates' => array(
+            'sioc:has_creator',
+          ),
+          'type' => 'rel',
+        ),
+        'name' => array(
+          'predicates' => array(
+            'foaf:name',
+          ),
+        ),
+        'comment_count' => array(
+          'predicates' => array(
+            'sioc:num_replies',
+          ),
+          'datatype' => 'xsd:integer',
+        ),
+        'last_activity' => array(
+          'predicates' => array(
+            'sioc:last_activity_date',
+          ),
+          'datatype' => 'xsd:dateTime',
+          'callback' => 'date_iso8601',
+        ),
+      ),
+      'cid' => '0',
+      'last_comment_timestamp' => '1447098276',
+      'last_comment_name' => NULL,
+      'last_comment_uid' => '1',
+      'comment_count' => '0',
+      'name' => 'gob',
+      'picture' => '0',
+      'data' => 'b:0;',
+      'path' => FALSE,
+      'menu' => NULL,
+      'node_export_drupal_version' => '7',
+    ),
+)
